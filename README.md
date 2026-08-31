@@ -53,12 +53,16 @@ This can be done in manual mode using the visualization buttons or in auto mode,
 
 If the system is stopped before a cycle is finished, it will allow the current cycle to complete before stopping.
 
-VID
+https://github.com/user-attachments/assets/989aed4c-790c-4969-bb02-78cff1bb913d
+
+
 
 ### Reset Function
 When in Idle or Stopped, pressing Reset will move the robot to the Home position before starting.
 
-VID
+https://github.com/user-attachments/assets/5300572b-04a2-4b07-9fe8-a1cedaa3f707
+
+
 
 ### Robot Timeout
 If any movement operation takes longer than expected, a timeout signal is triggered and the controller transitions
@@ -67,7 +71,9 @@ to Abort mode. A button to clear the fault is provided in the visualization.
 The timeout is defined as a constant in the global scope along with the other movement times. To simulate a
 timeout, it can be set to a low value so that the timeout always triggers, as shown in the video.
 
-VID
+https://github.com/user-attachments/assets/4f858ff3-7be2-453e-962d-6bc88da29ec1
+
+
 
 ### System Abort
 Fault and e‑stop buttons are provided in the visualization to simulate a fault or emergency stop, which will set
@@ -75,11 +81,14 @@ the system to Abort mode. An alarm journal in the SCADA monitors these events.
 
 These are abort signals coming from sources other than the robot. An abort signal will interrupt the ongoing cycle.
 
-VID
+https://github.com/user-attachments/assets/5c5d18bc-2076-4512-826a-459ba6219098
+
+
 
 ### Auto Mode
 It is available in the SCADA. It includes a field to select the product and another to select a waiting period
 between cycles. When enabled, the system will keep running in a loop by simulating sensor activations for the
 selected product.
 
-VID
+https://github.com/user-attachments/assets/d5e785cd-c857-444f-80a8-15967128142b
+
