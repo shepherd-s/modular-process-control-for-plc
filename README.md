@@ -23,7 +23,7 @@ additional functionality without modifying the process, and vice‑versa.
 that executes an action in Structured Text to simulate waiting times between movement operations and coordinate the
 process steps.
 
-- **Signal Handler**: Implemented in FBD to coordinate communication between the process and the controller.
+- **Signal Handler**: Implemented in FBD to coordinate abort signals and communication between the process and the controller.
 
 - **Visualization**: Provided to test the program. It contains start, stop, reset, e‑stop, status lamps, a fault button
 to trigger an abort for testing, and several buttons for the robot.
