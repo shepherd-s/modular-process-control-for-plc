@@ -1,4 +1,6 @@
 # Modular Process Control
+[![CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 This project presents a PLC software module designed to control different processes using the same controller.
 This enables a modular architecture for PLC applications by applying Object‑Oriented principles within
 the IEC 61131‑3 programming ecosystem.
